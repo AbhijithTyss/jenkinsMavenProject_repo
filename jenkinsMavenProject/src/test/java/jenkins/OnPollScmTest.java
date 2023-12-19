@@ -11,6 +11,8 @@ public class OnPollScmTest {
 	public void onPoll() {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://demowebshop.tricentis.com/");
+		Reporter.log("navigated to demo web shop",true);
 		Reporter.log("OnPollScmTest executed",true);
+		
 	}
 }
